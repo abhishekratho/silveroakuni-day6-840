@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Hover Element </title>
+		<style type="text/css">
+			#MainUL li ul li{display:none;}
+			#MainUL li:hover ul li{display:block;}
+			#MainUL li:hover ul li ul li{display:none;}
+			#MainUL li ul li:hover ul li{display:block;}
+			#MainUL li ul li:hover ul li ul li{display:none;}
+			#MainUL li ul li ul li:hover ul li{display:block;}
+		</style>
+
+	</head>
+	<body>
+
+		<ul id="MainUL">
+			<li>BCA
+				<ul>
+					<li> Theory
+						<ul>
+							<li> FCET </li>
+							<li> SMOR
+								<ul>
+									<li> HTML</li>
+									<li> SQL</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li> C</li>
+					<li> c++</li>
+					<li> Python </li>
+				</ul>
+			</li>
+			<li> B.COM</li>
+			<li> 12th
+				<ul>
+					<li> ACCOUNT </li>
+					<li> STATE </li>
+				</ul>
+			</li>
+			<li> Balance Sheet </li>
+				<ul>
+					<li>1 CH.</li>
+					<li>2 CH. </li>
+					<li>3 CH.</li>
+				</ul>
+			</li>
+		</ul>
+
+	</body>
+</html> 
